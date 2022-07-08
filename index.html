@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-
-    <title>Document</title>
+    <title>Evobret</title>
 </head>
 
 <body>
@@ -20,9 +19,9 @@
                 <li>
                     <a href="#">
                         <span class="icon">
-                            <ion-icon name="logo-react"></ion-icon>
+                            <img src="" alt="">
                         </span>
-                        <spam class="title">Spootz</spam>
+                        <spam class="title">Evobret</spam>
                     </a>
                 </li>
                 <li>
@@ -124,9 +123,18 @@
                     </div>
                 </div>
             </div>
-            <!--order details list-->
+            <!--Add Chart.js-->
+            <div class="graphBox">
+                <div class="box">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="box">
+                    <canvas id="earning"></canvas>
+                </div>
+            </div>
 
             <div class="details">
+                <!--order details list-->
                 <div class="recentOrders">
                     <div class="cardHeader">
                         <h2>Recent Orders</h2>
@@ -243,6 +251,8 @@
     <script src="app.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <script src="Chart.js"></script>
 </body>
 
 </html>
